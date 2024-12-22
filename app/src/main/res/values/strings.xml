@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Su ve İlaç Takipçisi</string>
+    <string-array name="water_reminder_messages">
+        <item>Su içmek için harika bir zaman! Sağlığına dikkat et 💧</item>
+        <item>Hadi biraz su içelim! Vücudun sana teşekkür edecek 💦</item>
+        <item>Kendine bir iyilik yap ve su iç! 🌊</item>
+        <item>Su içmek seni tazeleyecek! İç bakalım 😊</item>
+    </string-array>
+    <string-array name="medication_reminder_messages">
+        <item>İlaçlarını alma zamanı! Sağlığını önemsiyoruz 💊</item>
+        <item>Şimdi ilaçlarını al! Kendine iyi bak 💙</item>
+        <item>Unutma, ilaçlarını almak çok önemli! 🕒</item>
+        <item>İlaç vakti! Sağlığın için 🌟</item>
+    </string-array>
+</resources>

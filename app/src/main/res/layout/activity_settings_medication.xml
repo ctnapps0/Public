@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <CheckBox
+        android:id="@+id/timePickerCheckbox"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Belirli Bir Saatte Hatırlatma"
+        android:padding="8dp" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/intervalCheckbox"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Belirli Bir Dakika Aralığında Hatırlatma"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/medicationIntervalEditText"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Dakika aralığı"
+        android:padding="8dp" />
+
+    <Spinner
+        android:id="@+id/medicationMessageSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:entries="@array/medication_reminder_messages" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kaydet"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

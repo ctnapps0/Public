@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="İstatistikler"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/dailyWaterIntake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Günlük Su Tüketimi: 0 mL"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/weeklyWaterIntake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Haftalık Su Tüketimi: 0 mL"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/monthlyWaterIntake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aylık Su Tüketimi: 0 mL"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/dailyMedicationIntake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Günlük İlaç Tüketimi: 0 adet"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/weeklyMedicationIntake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Haftalık İlaç Tüketimi: 0 adet"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/monthlyMedicationIntake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aylık İlaç Tüketimi: 0 adet"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>

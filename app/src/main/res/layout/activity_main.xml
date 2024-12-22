@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/background_blue"> <!-- Arka plan rengini ayarladık -->
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Su ve İlaç Takipçisi"
+        android:textSize="30sp"
+        android:textColor="#8E24AA"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:shadowColor="#000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4"
+        android:background="@drawable/title_background"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bu uygulama, su içme ve ilaç alma hatırlatmalarınızı yapar."
+        android:textSize="24sp"
+        android:textColor="#3949AB"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:background="@drawable/description_background"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/waterReminderSettingsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="💧 Su Hatırlatıcı Ayarları"
+        android:background="@drawable/button_background"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2" />
+
+    <Button
+        android:id="@+id/medicationReminderSettingsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="💊 İlaç Hatırlatıcı Ayarları"
+        android:background="@drawable/button_background"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="24dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2" />
+
+    <Button
+        android:id="@+id/feedbackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📝 Geri Bildirim Yap"
+        android:background="@drawable/button_background"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="24dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2" />
+
+    <ProgressBar
+        android:id="@+id/waterProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+</LinearLayout>

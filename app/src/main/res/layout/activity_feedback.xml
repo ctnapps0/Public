@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Geri Bildirim"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/waterButton100ml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100 mL"
+            android:drawableTop="@drawable/ic_glass"
+            android:layout_margin="8dp" />
+
+        <Button
+            android:id="@+id/waterButton250ml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="250 mL"
+            android:drawableTop="@drawable/ic_glass"
+            android:layout_margin="8dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/waterButton500ml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="500 mL"
+            android:drawableTop="@drawable/ic_glass"
+            android:layout_margin="8dp" />
+
+        <Button
+            android:id="@+id/waterButton1ltr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 L"
+            android:drawableTop="@drawable/ic_glass"
+            android:layout_margin="8dp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/medicationNameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="İlaç Adı"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/medicationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="İlaç Aldım"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sık Kullanılan İlaçlar"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <ListView
+        android:id="@+id/medicationListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+    <!-- İstatistik Butonu -->
+    <Button
+        android:id="@+id/statsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="İstatistikler"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
